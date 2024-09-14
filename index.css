@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #222222;
+}
+
+:root {
+  --orange-color: #FA7436;
+  --text-color: #FFF;
+  --bg-color: #F7F8FC;
+  --bg-color2: #edeff6;
+  --p-color: #666;
+}
+body{
+  background-color: #FEFCFB;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif !important;
+  font-weight: 700 !important;
+  font-style: normal;
+}
+
+.section-heading {
+  font-size: medium;
+  font-weight: 700;
+  color: var(--green-color);
+}
+
+nav {
+  margin: 0rem 5rem;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  /* position: sticky;
+  top: 0;
+  z-index: 10000000; */
+}
+
+.brand-img{
+  max-width: 19px !important;
+  max-height: 19px !important;
+  margin-top: 6px;
+}
+
+nav > div:nth-child(2) {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+nav > div:nth-child(2) > h2 > a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+nav > div:nth-child(3) {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+nav > div:nth-child(3) > button {
+  font-size: 1rem;
+  padding: 0.6rem 3rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+}
+
+nav > div:nth-child(3) > button:nth-child(1) {
+  background: transparent;
+  color: #FD8D3A;
+  border: none;
+}
+
+nav > div:nth-child(3) > button:nth-child(2) {
+  background-color: var(--orange-color);
+  color: var(--text-color);
+  border: none;
+  box-shadow: 0 2px 6px 0 #fac69e, 0 1px 4px 0 #f6ece6;
+  padding: 0.8rem 3rem;
+}
+
+.secondary{
+  font-size: 20px !important;
+  margin-bottom: 3rem;
+}
+
+.pclr{
+  color: var(--p-color) !important;
+}
+
+#main{
+  font-size: 4rem !important;
+  line-height: 4.5rem;
+  margin: 3rem 0;
+}
+
+#main >span{
+  color: var(--orange-color);
+}
+
+.bt-trans{
+  font-size: 18px;
+  background-color: transparent;
+  color: var(--orange-color);
+  border: 1.5px solid var(--orange-color);
+  padding: 0.8rem 2rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+#content{
+  background-image: url("./images/tourist.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-btn{
+  text-align: center;
+  font-size: 18px;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  background-color: var(--orange-color);
+  color: var(--text-color);
+  border: none;
+  box-shadow: 0 2px 6px 0 #fac69e, 0 1px 4px 0 #f6ece6;
+  padding: 1rem 1.5rem;
+}
+
+.dp > h4 > span{
+  position: relative;
+  top: -7px;
+  color: var(--orange-color);
+}
+
+#sub > div > div {
+  box-shadow: 0px 0px 3px 0px gainsboro;
+  border-radius: 10px;
+}
+
+.custom-bg{
+  background-color: var(--bg-color);
+}
+
+.custom-head{
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.clr-o{
+  color: var(--orange-color);
+}
+
+.custom-card {
+  box-shadow: 0px 0px 4px 0px gainsboro;
+  border-radius: 10px;
+}
+
+#avt{
+  position: relative;
+  top: -2rem;
+  left: -4.5rem;
+  border-radius: 50%;
+}
+
+#custom-form{
+  background-color: var(--orange-color);
+  border-radius: 20px;
+}
+
+.in{
+  border-radius: 10px;
+}
+
+.custom-btn2{
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0.4rem;
+  background-color: var(--orange-color);
+  color: var(--text-color);
+  border: none;
+  box-shadow: 0 2px 6px 0 #fac69e, 0 1px 4px 0 #f6ece6;
+  padding: 0.8rem 2rem;
+}
+
+.custom-img{
+  position: relative;
+  top: -4rem;
+  right: -8rem;
+}
+#mail{
+  display: flex;
+}
+
+#mail > label{
+  display: flex;
+  align-items: center;
+  color: var(--p-color);
+}
+
+.fl{
+  display: flex;
+}
+
+.fa {
+  padding: 12px;
+  font-size: 1rem;
+  text-align: center;
+  margin: 2px 12px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 0px gainsboro;
+  color: #444;
+}
+
+.fa-facebook-f , .fa-twitter{
+  background-color: white;
+}
+
+.fa-facebook-f{
+  padding: 12px 15px;
+  margin-left: 0;
+}
+
+.fa-instagram{
+  background-color: var(--orange-color);
+  color: var(--text-color);
+}
+
+.card {
+  box-shadow: 0px 0px 6px 1px gainsboro;
+  border-radius: 20px;
+  width: 90%;
+}
+
+.custom-pos1{
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.custom-pos2{
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+#cus-box{
+  box-shadow: 0px 1px 72px -16px #fac69e;
+  box-shadow: 0px 2px 48px -16px #ffc696;
+}
+
+.arrow-btn > button{
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.arrow-btn > button:nth-child(1){
+  background-color: var(--text-color);
+  color: lightgray;
+  border: 1px solid silver;
+}
+
+.arrow-btn > button:nth-child(2){
+  background-color: var(--orange-color);
+  color: var(--text-color);
+}
+
+.col-g{
+  color: #999;
+}
